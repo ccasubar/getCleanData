@@ -1,5 +1,6 @@
 # getCleanData
 Final course project for Getting and Cleaning Data
+
 Source of Data: Human Activity Recognition Using Smartphones Data Set from UCI Machine Learning Repository
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. 
