@@ -42,7 +42,6 @@ What I did (based on principles of good variable names):
 
 Labels before the change:
 > names(meanStdData)
-
  [1] "subjectId"                   "activity"                    "tBodyAcc-mean()-X"          
  [4] "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"           
  [7] "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"            "tGravityAcc-mean()-X"       
@@ -69,7 +68,6 @@ Labels before the change:
 
 Labels after change:
 > names(meanStdData)
-
  [1] "subjectId"            "activity"             "tBodyAccMean-X"      
  [4] "tBodyAccMean-Y"       "tBodyAccMean-Z"       "tBodyAccStd-X"       
  [7] "tBodyAccStd-Y"        "tBodyAccStd-Z"        "tGravityAccMean-X"   
