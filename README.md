@@ -1,4 +1,4 @@
-# getCleanData: Final course project for Getting and Cleaning Data
+## Final course project for Getting and Cleaning Data
 
 Source of Data: Human Activity Recognition Using Smartphones Data Set from UCI Machine Learning Repository
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
