@@ -13,14 +13,14 @@ activityLabels, features, subjTest, xtest, ytest, subjTrain, xtrain, ytrain
 
 The R script "run_analysis.R" is written to do the following:
 
-1. Merge the training and the test sets to create one data set.
+## 1. Merge the training and the test sets to create one data set.
 
 What I did:
 * subjTest, ytest, and xtest were merged to form "test"
 * subjTrain, ytrain, and xtrain were merged to form "train"
 * used rbind to merge "test" and "train" to form one data set "mergedData"
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
+## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
 What I did:
 * extract second column values from features to vector "colLabels"
@@ -28,12 +28,12 @@ What I did:
 * created meanStdCol which is a list of columns where the labels contain the exact strings "-mean()" or "-std()"
 * created meanStdData which contains a subset of columns from mergedData
 
-3. Uses descriptive activity names to name the activities in the data set.
+## 3. Uses descriptive activity names to name the activities in the data set.
 
 What I did:
 * replaced numeric values of activity column in meanStdData with the corresponding text labels in second column of activityLabels
 
-4. Appropriately labels the data set with descriptive variable names.
+## 4. Appropriately labels the data set with descriptive variable names.
 
 What I did (based on principles of good variable names):
 * replace "-mean()" with "Mean"
@@ -92,7 +92,7 @@ Labels after change:
 [64] "fBodyAccJerkMagStd"   "fBodyGyroMagMean"     "fBodyGyroMagStd"     
 [67] "fBodyGyroJerkMagMean" "fBodyGyroJerkMagStd" 
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 What I did:
 * use summarize_all to get mean of each variable for each activity by each subject and store results in finalData
